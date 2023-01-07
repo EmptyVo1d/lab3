@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "initialization.h"
 #include "change.h"
 #include "SUM.h"
 #include "input.h"
+#include "initialization.h"
 #include "view.h"
 #include "easterEgg.h"
 
@@ -20,7 +20,7 @@ int main() {
         if (flag == 0) break;
         if (flag == 1) arr = initialization(&col);
         if (flag == 2) *arr = change(pointer, &col, arr);
-        if (flag == 3) *arr = SUM(pointer, &col, arr, arr2, pointer2);
+        if (flag == 3) arr = SUM(pointer, &col, arr, arr2, pointer2);
         if (flag == 4) view(arr, &col);
         if (flag == 404) easterEgg();
     }

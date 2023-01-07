@@ -4,5 +4,5 @@
 
 #ifndef UNTITLED5_CHANGE_H
 #define UNTITLED5_CHANGE_H
-int change(int **pointer, int *col, int *arr);
+int change(int **pointer, int *len, int *arr);
 #endif //UNTITLED5_CHANGE_H

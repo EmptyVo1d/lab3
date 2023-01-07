@@ -12,6 +12,6 @@ int *initialization(int *col){
     printf("enter the array elements\n");
     for(int i=0; i<*col; i++){
         pointer[i] = input();
-}
+    }
     return pointer;
 }
